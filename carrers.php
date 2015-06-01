@@ -6,7 +6,7 @@ include('cabecera.php');
 			<div class="banner-main">
 				<div class="container">	
 					<div class="banner-top bnr-top">
-						<h1>Hey, come to work with us</h1>
+						<h1>"Soluciones a la medida... Para una empresa competitiva..." </h1>
 					</div>
 				</div>
 			</div>
@@ -136,41 +136,6 @@ include('cabecera.php');
 			});
 		</script>
 		<!----- Comman-js-files ----->
-	<!--start-footer-->
-	<div class="footer">
-		<div class="container">
-			<div class="footer-main">
-				<div class="contact">
-					<div class="col-md-8 contact-left">
-						<a href="index.html"><img src="images/logo-2.png" alt="" /></a>
-						<p>Lorem ipsum dolor sit tamet, consectetur adipiscing elit. Quisque vel lobortis neque, nec dictum erat. Proin malesuada, neque at facilisis posuere, tortor arcu vulputate dui, in sodales sem lacus sit amet diam.</p>
-					</div>
-					<div class="col-md-4 contact-right">
-						<h3>QUICK CONTACTS</h3>
-						<p>421.909.123.456</p>
-						<p><a href="mailto:example@email.com">hello@planeto.com</a></p>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-				<div class="footer-bottom">
-					<div class="col-md-4 footer-left">
-						<ul>
-							<li><a href="#"><span class="fb"> </span></a></li>
-							<li><a href="#"><span class="twit"> </span></a></li>
-							<li><a href="#"><span class="sky"> </span></a></li>
-						</ul>
-					</div>
-					<div class="col-md-4 footer-middle">
-						<p>Template by <a href="http://w3layouts.com/"> W3layouts</a></p>
-					</div>
-					<div class="col-md-4 footer-right">
-						<p><a href="#home" class="scroll">TO THE TOP</a></p>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--end-footer-->
-</body>
-</html>
+<?php
+	include('pie.php');
+?>
