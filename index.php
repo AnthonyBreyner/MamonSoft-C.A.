@@ -37,7 +37,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="navigation">
             <span class="menu"></span>
             <ul class="navig">
-                <li><a href="index.html" class="active">INICIO</a></li><span><img src="images/clk.png" alt="" /></span>
+                <li><a href="index.php" class="active">INICIO</a></li><span><img src="images/clk.png" alt="" /></span>
                 <li><a href="about-us.php">NOSOTROS</a></li><span><img src="images/clk.png" alt="" /></span>
                 <li><a href="services.php">SERVICIOS</a></li><span><img src="images/clk.png" alt="" /></span>
                 <li><a href="404.php">CURSOS</a></li><span><img src="images/clk.png" alt="" /></span>
@@ -416,41 +416,7 @@ $(function () {
 	
 });	
 </script>
-	<!--start-footer-->
-	<div class="footer">
-		<div class="container">
-			<div class="footer-main">
-				<div class="contact">
-					<div class="col-md-6 contact-left">
-						<a href="index.html"><img src="images/logo.jpg"style="width: 35%" alt="" /></a>
-						<p>Lorem ipsum dolor sit tamet, consectetur adipiscing elit. Quisque vel lobortis neque, nec dictum erat. Proin malesuada, neque at facilisis posuere, tortor arcu vulputate dui, in sodales sem lacus sit amet diam.</p>
-					</div>
-					<div class="col-md-6 contact-right">
-						<h3>QUICK CONTACTS</h3>
-						<p>421.909.123.456</p>
-						<p><a href="mamonsoft.ca@gmail.com">mamonsoft.ca@gmail.com</a></p>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-				<div class="footer-bottom">
-					<div class="col-md-4 footer-left">
-						<ul>
-							<li><a href="#"><span class="fb"> </span></a></li>
-							<li><a href="#"><span class="twit"> </span></a></li>
-							<li><a href="#"><span class="sky"> </span></a></li>
-						</ul>
-					</div>
-					<div class="col-md-4 footer-middle">
-						<p><a href=""> MamonSoft C.A.</a></p>
-					</div>
-					<div class="col-md-4 footer-right">
-						<p><a href="#home" class="scroll">TO THE TOP</a></p>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--end-footer-->
-</body>
-</html>
+
+<?php
+include('pie.php');
+?>
