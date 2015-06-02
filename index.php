@@ -2,6 +2,8 @@
 <html>
 <head>
     <title>MamonSoftC.A.</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="Planeto Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
@@ -40,7 +42,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <li><a href="index.php" class="active">INICIO</a></li><span><img src="images/clk.png" alt="" /></span>
                 <li><a href="about-us.php">NOSOTROS</a></li><span><img src="images/clk.png" alt="" /></span>
                 <li><a href="services.php">SERVICIOS</a></li><span><img src="images/clk.png" alt="" /></span>
-                <li><a href="404.php">CURSOS</a></li><span><img src="images/clk.png" alt="" /></span>
+                <li><a href="cursos.php">CURSOS</a></li><span><img src="images/clk.png" alt="" /></span>
                 <li><a href="carrers.php">SOFTWARE</a></li><span><img src="images/clk.png" alt="" /></span>
                 <li><a href="contact.php">CONTACTO</a></li>
             </ul>

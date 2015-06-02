@@ -30,7 +30,7 @@ include('cabecera.php');
 				<div class="about-bottom">
 					<div class="col-md-6 about-left">
 					<h2>Misión</h2>
-						<p>Vestibulum accumsan eros non eros vehicula aliquet. Cras egestas ornare libero, at varius tortor auctor ac. Pellen-tesque quis turpis dui. Fusce bibendum, orci non pulvinar porta, lacus mi facilisis leo, vitae blandit elit elit id odio. Maecenas sed luctus risus, a molestie sapien. Nulla sit amet purus justo. Cras pretium eleifend dolor, in porta nunc sodales et. </p>
+						<p>Ofrecer una gama de Soluciones Integrales, que permitan a nuestros Clientes, cumplir con sus planes y estrategias de negocios, suministrándoles la mejor solución, acompañada de un amplio portafolio de servicios de valor agregado, haciéndola fácil y accesible a los usuarios, sencilla de operar, fácil de mantener y con un alto índice de rentabilidad y retorno sobre la inversión. </p>
 					</div>
 					<div class="col-md-6 about-left">
 						<h2>Visión</h2>
@@ -255,7 +255,7 @@ include('cabecera.php');
 					<p>¿Quieres formar parte de MamonSoft?</p>
 				</div>
 				<div class="col-md-5 team-msg-right">
-					<a href="contact.php">SEND US MESSAGE</a>
+					<a href="contact.php">CONTACTENOS</a>
 				</div>
 				<div class="clearfix"></div>
 			</div>
