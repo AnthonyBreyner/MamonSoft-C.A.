@@ -28,7 +28,7 @@ if($resultado) {
 
     $mail->Port = 587;
     $mail->Username = "mamonsoft.ca@gmail.com"; // SMTP account username
-    $mail->Password = "za63qj2P"; // SMTP account password
+    $mail->Password = "Za63qj2p"; // SMTP account password
     $mail->SetFrom ( 'mamonsoft.ca@gmail.com', 'MamonSoft' );
     $mail->AddReplyTo ( 'mamonsoft.ca@gmail.com', 'Confirmacion de Curso' );
     $cuerpo = '<br>' . $ruta;

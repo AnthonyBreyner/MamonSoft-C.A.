@@ -7,7 +7,9 @@
 				<div class="contact">
 					<div class="col-md-6 contact-left">
 						<a href="index.html"><img src="images/logo.jpg"style="width: 35%" alt="" /></a>
-						<p>Lorem ipsum dolor sit tamet, consectetur adipiscing elit. Quisque vel lobortis neque, nec dictum erat. Proin malesuada, neque at facilisis posuere, tortor arcu vulputate dui, in sodales sem lacus sit amet diam.</p>
+						<p>Partimos desde lo simple a lo más complejo de los negocios, comenzamos por el entendimiento humano y la 
+						complejidad científica que representan los procesos diarios del mercado. Gracias a la adaptación y sencillez 
+						de nuestros esquemas de trabajo hacen de nosotros una excelente opción de confianza.</p>
 					</div>
 					<div class="col-md-6 contact-right">
 						<h3>CONTACTENOS</h3>

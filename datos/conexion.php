@@ -1,6 +1,6 @@
 
 <?php
-$enlace =  mysql_connect('localhost', 'root', '123');
+$enlace =  mysql_connect('localhost', 'root', 'za63qj2p');
 
 if (!$enlace) {
     die('No pudo conectarse: ' . mysql_error());
