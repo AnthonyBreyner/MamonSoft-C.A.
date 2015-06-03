@@ -24,43 +24,45 @@ include('cabecera.php');
 	<div class="carrer">
 		<div class="container">
 			<div class="carrer-top">
-				<h3>open positions in planeto</h3>
+				<h3>SoftWare Disponibles</h3>
 			</div>
 			<div class="tabs-box">
 			<ul class="tabs-menu">
-				<li><a href="#tab1"><span> </span>Senior webdesigner</a></li>
-				<li><a href="#tab2"><span> </span>Project manager</a></li>
-				<li><a href="#tab3"><span> </span>Front-end developer</a></li>
+				<li><a href="#tab1"><span> </span>Gestiones Escolares</a></li>
+				<li><a href="#tab2"><span> </span>SoftWare A la Medida</a></li>
 			</ul>
 			<div class="clearfix"> </div>
 			<div class="tab-grids">
 				<div id="tab1" class="tab-grid">
 					<div class="tb-one">
-						<h3>Lorem ipsum dolor sit amet</h3>
-						<p>Nulla tincidunt adipiscing aliquet. Suspendisse vitae mi at diam tempus imperdiet. Aliquam erat volutpat. Duis pharetra nibh sit amet augue porta, quis mattis massa aliquet. Morbi in consectetur ipsum rhoncus risus. Pellentesque quam felis, vulte. Aliquam erat volutpat. Curabitur varius gravida bibendum. </p>
+						<h3>Software Para Gestiones Escolares (GESAODIN).</h3>
+						<p> 	Le permitirá administrar totalmente su institución en tan solo unos clic.
+
+Incluye múltiples funciones y herramientas para automatizar los procedimientos administrativos, académicos y comerciales de su institución, optimizando sus recursos ahorrándole tiempo y dinero. Dicha aplicación fue desarrollada por un grupo comprometido en diversas labores empresariales, buscando automatizar los procedimientos administrativos, académicos y comerciales en instituciones de Educación.  </p>
 					</div>
 					<div class="tb-one">
-						<h3>Proin tincidunt id dui et ullamcorper</h3>
-						<p>In hac habitasse platea dictumst. Etiam tincidunt vulputate feugiat. Ut nulla libero, bibendum sed mauris in, faucibus tincidunt arcu. Praesent lobortis pretium nibh a faucibus. Vivamus ac nibh convallis, euismod velit ac, feugiat magna. Vivamus nunc purus, ornare eget ante eget, luctus convallis magna. Ut augue elit, pellentesque in nisi sit amet, sodales convallis sapien. Proin imperdiet orci vitae vehicula convallis. In sit amet adipiscing nisi. Pellentesque et nibh volutpat, dignissim enim quis, mattis ipsum. Integer molestie id purus sed tempor. Sed mollis iaculis odio, nec tincidunt odio. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer in nisi nulla. Vivamus placerat ligula libero, vitae gravida lectus facilisis et.</p>
+						<h3>
+Mejorando el aspecto y la factibilidad</h3>
+						<p>GesaOdin II, presenta la mejor forma para mejorar los procesos de gestión educativa, y facilitar la coordinación entre docentes y cargos directivos, con la utilización de una única y completa aplicación de gestión académica</p>
 					</div>
 					<div class="tb-one">
-						<h3>Integer eleifend facilisis arcu sit amet consequat</h3>
-						<p>Aenean gravida enim ut diam pulvinar, in imperdiet felis consectetur. Cras arcu diam, ullamcorper ultricies faucibus vel, aliquet eget lacus. Aenean quis adipiscing orci. Nulla non aliquet nibh. Maecenas et est sodales, scelerisque mi in, tincidunt mauris. Donec sem metus, tincidunt vel luctus quis, scelerisque tempus ante. Praesent quis diam sollicitudin, eleifend ipsum ac, imperdiet dui. Nulla lobortis at nulla laoreet ultrices. </p>
+						<h3>Nuestro principal objetivo.</h3>
+						<p>Es proporcionales una herramienta que les permita consolidar todas las operaciones de gestión escolar automatizada, bajo un sólido concepto y una amigable interfaz, que se convertirá en su mejor aliada en el proceso para automatizar los procedimientos administrativos y académicos en las instituciones educativas.</p>
 					</div>
 					<div class="tb-one">
-						<h3>Apply for this position:</h3>
+						<h3>Obtén tu copia gratis:</h3>
 							<div class="tb-two">
-								<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" />
-								<input type="text" value="Website" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Website';}" />
-								<input type="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" />
-						        <input type="text" value="Phone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone';}" />
-								<textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
+								<input type="text" placeholder="Nombre Y Apellido" id="nombre" name="nombre" />
+								<input type="text" placeholder="Institución" id="insti" name="insti" />
+								<input type="text" placeholder="Email" id="correo" name="correo" />
+						        <input type="text" placeholder="Telefonos" id="telefono" name="telefono" />
+								<textarea placeholder="Mensaje" id="mensaje" name="mensaje"></textarea>
 									<div class="t-btn">
-										<form>
-											<input type="submit" value="SEND MESSAGE">
+										<form action="#" method="post" onsubmit="return guardar();">
+											<input type="submit" value="Enviar">
 								    	</form>
 								    </div>
-						    </div>				
+						    </div>
 					</div>
 				</div>
 				<div id="tab2" class="tab-grid">
@@ -75,46 +77,17 @@ include('cabecera.php');
 					<div class="tb-one">
 						<h3>Apply for this position:</h3>
 							<div class="tb-two">
-								<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" />
-								<input type="text" value="Website" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Website';}" />
-								<input type="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" />
-						        <input type="text" value="Phone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone';}" />
-								<textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
+								<input type="text" placeholder="Nombre Y Apellido" id="nombreM" name="nombreM" />
+								<input type="text" placeholder="Empresa" id="instiM" name="instiM" />
+								<input type="text" placeholder="Email" id="correoM" name="correoM" />
+						        <input type="text" placeholder="Telefonos" id="telefonoM" name="telefonoM" />
+								<textarea placeholder="Describa lo que desea"  id="mensajeM" name="mensajeM"></textarea>
 									<div class="t-btn">
-										<form>
-											<input type="submit" value="SEND MESSAGE">
+										<form  action="#" method="post" onsubmit="return guardar2();">
+											<input type="submit" value="Enviar">
 								    	</form>
 								    </div>
-						    </div>				
-					</div>
-				</div>
-				<div id="tab3" class="tab-grid">
-					<div class="tb-one">
-						<h3>Lorem ipsum dolor sit amet</h3>
-						<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean at lorem euismod diam semper viverra iaculis id ante. Proin laoreet, dui non sagittis aliquam, lacus justo facilisis sapien, lacinia gravida mi tellus vel odio. Donec porttitor sed erat eget molestie. Phasellus consectetur, felis vel facilisis elementum, nunc tellus pretium ex, eu interdum velit risus commodo lacus. Aenean lacinia leo vel nulla rutrum scelerisque. Vestibulum eu eleifend justo.</p>
-					</div>
-					<div class="tb-one">
-						<h3>Donec eu erat efficitur varius</h3>
-						<p>Aenean nisi odio, scelerisque pellentesque diam et, facilisis semper ex. Etiam feugiat, lectus non aliquet mollis, odio felis posuere nibh, id vehicula nibh turpis vestibulum purus. Vivamus tristique ultricies tellus ac ultricies. Donec hendrerit felis et tempor pulvinar.</p>
-					</div>
-					<div class="tb-one">
-						<h3>Praesent lacinia magna risus</h3>
-						<p>Curabitur at varius urna. Mauris tincidunt molestie ante eu aliquet. Nullam nec condimentum sem. Donec aliquam turpis sit amet justo posuere, ut facilisis libero eleifend. Praesent tortor eros, porttitor sed ultricies mattis</p>
-					</div>
-					<div class="tb-one">
-						<h3>Apply for this position:</h3>
-							<div class="tb-two">
-								<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" />
-								<input type="text" value="Website" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Website';}" />
-								<input type="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" />
-						        <input type="text" value="Phone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone';}" />
-								<textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
-									<div class="t-btn">
-										<form>
-											<input type="submit" value="SEND MESSAGE">
-								    	</form>
-								    </div>
-						    </div>				
+						    </div>
 					</div>
 				</div>
 			</div>
@@ -123,10 +96,10 @@ include('cabecera.php');
 	</div>
 	<!--start-carrer-->
 	<!----- Comman-js-files ----->
+	    <script type="text/javascript" src="js/software.js"></script>
 		<script>
 			$(document).ready(function() {
 				$("#tab2").hide();
-				$("#tab3").hide();
 				$(".tabs-menu a").click(function(event){
 					event.preventDefault();
 					var tab=$(this).attr("href");
