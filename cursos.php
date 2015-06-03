@@ -54,11 +54,11 @@ include('cabecera.php');
 						        <select id="nivel"></select>
 						        <select id="profesion"></select>
 						        <select id="ocupacion"></select>
-						        <input type="text" id="cedula" name="cedula" placeholder="CEDULAurso"/>
-								<textarea placeholder="Observaciones..."></textarea>
+						        <input type="text" id="cedula" name="cedula" placeholder="CEDULA"/>
+								<textarea placeholder="Observaciones..." id="observacion"></textarea>
 									<div class="t-btn">
-										<form>
-											<input type="button" value="Enviar">
+										<form onsubmit="return guardar();" action="#">
+											<input type="submit" value="Enviar">
 								    	</form>
 								    </div>
 						    </div>				
@@ -74,6 +74,9 @@ include('cabecera.php');
 		<script>
 			$(document).ready(function() {
 				cursos();
+				nivel();
+				ocupa();
+				profe();
 			});
 		</script>
 		<!----- Comman-js-files ----->
