@@ -24,20 +24,23 @@ include('cabecera.php');
 	<div class="carrer">
 		<div class="container">
 			<div class="carrer-top">
-				<h3>Cursos Y Talleres</h3>
+				<h3>Cursos Y Talleres</h3><br>
+				<select id="lista_cursos" style="width: 50%;" onchange="mostrarCurso();"></select>
 			</div>
 			<div class="tabs-box">
-			<ul class="tabs-menu" id="lista_cursos">
-				<!--<li><a href="#"onclick="mostrar()"><span> </span>Senior webdesigner</a></li>
+			<!--<ul class="tabs-menu" id="lista_cursos">
+				<li><a href="#"onclick="mostrar()"><span> </span>Senior webdesigner</a></li>
 				<li><a href="#"onclick="mostrar()"><span> </span>Project manager</a></li>
-				<li><a href="#"onclick="mostrar()"><span> </span>Front-end developer</a></li>!-->
-			</ul>
+				<li><a href="#"onclick="mostrar()"><span> </span>Front-end developer</a></li>
+			</ul>!-->
+
 			<div class="clearfix"> </div>
-			<div class="tab-grids">
+			<div class="services-main">
 				<div id="tab1" class="tab-grid">
+
 					<div class="tb-one">
 						<h3 id="titulo"></h3>
-						<p id="descripcion"></p>
+						<p id="descripcion" style="width: 100%;"></p>
 					</div>
 
 					<div class="tb-one">
@@ -74,5 +77,5 @@ include('cabecera.php');
 		</script>
 		<!----- Comman-js-files ----->
 <?php
-	include('pie.php');
+include('pie.php');
 ?>

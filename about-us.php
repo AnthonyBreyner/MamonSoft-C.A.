@@ -25,7 +25,9 @@ include('cabecera.php');
 		<div class="container">
 			<div class="about-top">
 				<h3>Bienvenido a MamonSoft</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere, quam at lacinia fermentum, libero erat aliquam est, vitae ornare neque dolor eget metus. Mauris imperdiet neque sed libero auctor faucibus. Quisque ac varius risus. Quisque sem sem, porttitor et malesuada vel, dignissim et ligula. </p>
+				<p>MamonSoft C.A, reúne a un amplio grupo formado en diversas áreas del conocimiento científico y tecnológico y humanístico a fines de comprender el mundo de los negocios y las necesidades gubernamentales y/o privadas del mundo.
+                Todos ellos juntos suman un potencial excelente capaz de dirigir y asesorar su empresa o institución para llevarla al mundo de los negocios virtuales y luego ponerlos al alcance de todos.
+                Somos una empresa enfocada en las reglas de los negocios actuales; coordinar, comprender y orientar de manera eficaz y eficiente esos modelos de PyME que siempre han soñado, el software a la medida adoptará con nosotros un nuevo concepto basado en la disciplina  y honestidad. </p>
 			</div>	
 				<div class="about-bottom">
 					<div class="col-md-6 about-left">
@@ -34,7 +36,8 @@ include('cabecera.php');
 					</div>
 					<div class="col-md-6 about-left">
 						<h2>Visión</h2>
-						<p>Vestibulum accumsan eros non eros vehicula aliquet. Cras egestas ornare libero, at varius tortor auctor ac. Pellen-tesque quis turpis dui. Fusce bibendum, orci non pulvinar porta, lacus mi facilisis leo, vitae blandit elit elit id odio. Maecenas sed luctus risus, a molestie sapien. Nulla sit amet purus justo. Cras pretium eleifend dolor, in porta nunc sodales et. </p>
+						<p>Ayudar e implementar métodos que impulsen un nuevo modelo de negocio en la nube. Diseñar una plataforma inteligente y dinámica capaz de resolver problemas de negocios en pequeña, mediana y grande escala en los diversos sectores del mercado, buscando impulsar a las empresas partiendo de la gestión y producción.
+Más que un trabajo es nuestro compromiso a fines de lograr una productividad absoluta del trabajo dia a dia. </p>
 					</div>
 					<div class="clearfix"></div>
 				</div>

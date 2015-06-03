@@ -4,16 +4,23 @@ function cursos(){
         dataType : 'JSON',
         success : function(json) {//alert(json);
             $.each(json, function(item, valor) {
-                var newListItem = $('<li/>', {
-                    html: "<a href='#' onclick='mostrarCurso("+item+")'><span></span>"+valor+"</a>",
-                    "id": item
-                });
-                $("#lista_cursos").append(newListItem);
+                $("#lista_cursos").append(new Option(valor, item, false, true));
             });
+            $("#lista_cursos").append(new Option('Seleccion Curso',0, false, true));
         }
     });
 }
 
-function mostrarCurso(id){
-
+function mostrarCurso(){
+    var id = $("#lista_cursos").val();
+    var tit = $("#lista_cursos option:selected").text();
+    $.ajax({
+        url : 'datosCurso.php',
+        data: "id="+id,
+        type: 'POST',
+        success : function(resp) {//alert(resp);
+            $("#titulo").html(tit);
+            $("#descripcion").html(resp);
+        }
+    });
 }
