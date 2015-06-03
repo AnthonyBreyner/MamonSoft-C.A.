@@ -1624,30 +1624,9 @@ ul.tabs-menu li a:hover{
   	-ms-border-radius: 2.3em;
   	font-family: 'Open Sans', sans-serif;
 }
-.tb-one select{
-    width: 48.2%;
-    font-size: 13px;
-    margin: 7px auto;
-    color: #474747;
-    background: #f3f3f3;
-    padding: 10px 10px;
-    outline: none;
-    border: none;
-    border-radius: 2.3em;
-    -webkit-border-radius: 2.3em;
-    -moz-border-radius: 2.3em;
-    -o-border-radius: 2.3em;
-    -ms-border-radius: 2.3em;
-    font-family: 'Open Sans', sans-serif;
-}
-
 .tb-one input[type="text"]:nth-child(1),
 .tb-one input[type="text"]:nth-child(3){
 	margin-right:23px;
-}
-.tb-one select:nth-child(1),
-.tb-one select:nth-child(3){
-    margin-right:23px;
 }
 /*-- tabs-responsive --*/
 @media(max-width:1366px){
@@ -2400,7 +2379,6 @@ ul.tabs-menu {
 .tb-one input[type="text"]:nth-child(1), .tb-one input[type="text"]:nth-child(3) {
   margin-right: 13px;
 }
-
 .tb-one input[type="text"] {
   margin: 4px auto;
   padding: 7px 15px;
