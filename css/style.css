@@ -36,8 +36,9 @@ body a:hover{
   text-align: left;
 }
 .logo {
-  width: 27%;
+  width: 37%;
   float: left;
+  margin-left: 10%;
   text-align: right;
 }
 .header {
