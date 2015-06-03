@@ -40,10 +40,11 @@ include('cabecera.php');
 
 					<div class="tb-one">
 						<h3 id="titulo"></h3>
-						<p id="descripcion" style="width: 100%;"></p>
+						<div class="tb-one" id="descripcion"></div>
 					</div>
 
 					<div class="tb-one">
+					    <br>
 						<h3>Estoy intersado en esto:</h3>
 							<div class="tb-two">
 								<input type="text" id="nombres" name="nombres" placeholder="Nombres" />
@@ -53,7 +54,7 @@ include('cabecera.php');
 						        <select id="nivel"></select>
 						        <select id="profesion"></select>
 						        <select id="ocupacion"></select>
-						        <input type="text" id="curso" name="curso" placeholder="Curso"/>
+						        <input type="text" id="cedula" name="cedula" placeholder="CEDULAurso"/>
 								<textarea placeholder="Observaciones..."></textarea>
 									<div class="t-btn">
 										<form>
