@@ -301,7 +301,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			  </script>
 			<!--End-slider-script-->
 	<!--start-project-->
-	<div class="project">
+	<!--<div class="project">
 		<div class="container">
 			<div class="project-top">
 				<h3>OUR AWESOME PROJECTS</h3>
