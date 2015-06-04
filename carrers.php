@@ -67,21 +67,27 @@ Mejorando el aspecto y la factibilidad</h3>
 				</div>
 				<div id="tab2" class="tab-grid">
 					<div class="tb-one">
-						<h3>Lorem ipsum dolor sit amet</h3>
-						<p>Nulla tincidunt adipiscing aliquet. Suspendisse vitae mi at diam tempus imperdiet. Aliquam erat volutpat. Duis pharetra nibh sit amet augue porta, quis mattis massa aliquet. Morbi in consectetur ipsum rhoncus risus. Pellentesque quam felis, vulte. Aliquam erat volutpat. Curabitur varius gravida bibendum. </p>
+						<h3>Servicios de desarrollo de software a la medida.</h3>
+						<p>El software a medida consiste en un desarrollo especialmente diseñado para un cliente en particular, teniendo en cuenta sus propios requerimientos y la política de su empresa u organización.
+
+En Mamonsoft Nos asociamos con nuestros clientes para comprender sus necesidades y objetivos, y así poder ofrecerles la solución que maximice el valor que éstos reciben.
+
+MamonSoft brinda los servicios de desarrollo de software a la medida. Trabajamos conjuntamente con nuestros clientes para detectar cuáles son las soluciones más eficientes para su organización, siendo este un servicio idóneo para aquellas empresas u organizaciones que requieran de la adquisición de un sistema para mejorar sus procesos, que esté desarrollado como lo desean de acuerdo a sus necesidades y que se acople a la estructura de trabajo. </p>
 					</div>
 					<div class="tb-one">
-						<h3>Curabitur dapibus eros luctus.</h3>
-						<p>Donec eu erat efficitur, varius est at, rhoncus augue. Praesent lacinia magna risus, convallis egestas nisl maximus a. Aenean suscipit lacinia felis et placerat. Donec in dictum nibh, nec lacinia nisl. Nunc sem ipsum, tempor id tincidunt sit amet, pretium sed nulla. Morbi lacinia felis sit amet fermentum gravida. Aliquam iaculis id magna quis tempor</p>
+						<h3>Con el desarrollo de software a la medida.</h3>
+						<p>Su organización, podrás tener la plena certeza de que su software realizará exactamente lo que usted decida. Se creará en el menor tiempo posible (acorde a sus necesidades), la interfaz gráfica del usuario estará diseñado de manera elegante y muy sencillo de utilizar, será instalado por nuestra empresa en su computadora, además el personal será capacitado para utilizar el software de manera adecuada y eficiente. Con todo esto buscamos disminuir la cantidad de tiempo dedicado a ciertas actividades, y por tanto, ahora tendrá más tiempo para dedicar a mejorar sus productos o servicios y hacer crecer su empresa, del mismo modo disminuir errores que pueden surgir en el proceso normal del negocio, y menor número de errores igual a menos problemas, por lo tanto, existirá un aumento en la productividad y en las ventas permitiendo el aumento de la rentabilidad de su negocios.
+
+MamonSoft está interesado en poder brindarle el mejor servicio y las herramientas necesarias para impulsar a su empresa u organización, para ello nuestros profesionales manejan fluidamente gran variedad de tecnologías y nos apasiona el reto de enfrentar desafíos nuevos, razón por cual nuestra empresa es la indicada para realizar cualquier solución a medida que su organización necesite.</p>
 					</div>
 					<div class="tb-one">
-						<h3>Apply for this position:</h3>
+						<h3>Solicitar Software:</h3>
 							<div class="tb-two">
 								<input type="text" placeholder="Nombre Y Apellido" id="nombreM" name="nombreM" />
 								<input type="text" placeholder="Empresa" id="instiM" name="instiM" />
 								<input type="text" placeholder="Email" id="correoM" name="correoM" />
 						        <input type="text" placeholder="Telefonos" id="telefonoM" name="telefonoM" />
-								<textarea placeholder="Describa lo que desea"  id="mensajeM" name="mensajeM"></textarea>
+								<textarea placeholder="Describa lo que necesita"  id="mensajeM" name="mensajeM"></textarea>
 									<div class="t-btn">
 										<form  action="#" method="post" onsubmit="return guardar2();">
 											<input type="submit" value="Enviar">

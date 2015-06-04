@@ -45,7 +45,7 @@ Más que un trabajo es nuestro compromiso a fines de lograr una productividad ab
 	</div>
 	<!--end-about-->
 	<!--start-chrono-->
-	<div class="chrono">
+	<!--<div class="chrono">
 		<div class="container">
 			<div class="chrono-main">
 				<h3>planeto’s chronology</h3>
@@ -119,7 +119,7 @@ Más que un trabajo es nuestro compromiso a fines de lograr una productividad ab
 	</div>
 	<!--end-chrono-->
 	<!--start-team-->
-	<div class="team">
+	<!--<div class="team">
 		<div class="container">
 			<div class="team-top">
 				<h3>planeto dream team</h3>

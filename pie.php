@@ -30,7 +30,7 @@
 						<p><a href=""> MamonSoft C.A.</a></p>
 					</div>
 					<div class="col-md-4 footer-right">
-						<p><a href="#home" class="scroll">TO THE TOP</a></p>
+						<p><a href="#home" class="scroll">IR ARRIBA</a></p>
 					</div>
 					<div class="clearfix"></div>
 				</div>
