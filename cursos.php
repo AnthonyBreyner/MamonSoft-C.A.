@@ -25,7 +25,7 @@ include('cabecera.php');
 		<div class="container">
 			<div class="carrer-top">
 				<h3>Cursos Y Talleres</h3><br>
-				<select id="lista_cursos" style="width: 50%;" onchange="mostrarCurso();"></select>
+				<select class="select" id="lista_cursos" style="width: 50%;" onchange="mostrarCurso();"></select>
 			</div>
 			<div class="tabs-box">
 			<!--<ul class="tabs-menu" id="lista_cursos">
@@ -48,13 +48,13 @@ include('cabecera.php');
 						<h3>Estoy intersado en esto:</h3>
 							<div class="tb-two">
 								<input type="text" id="nombres" name="nombres" placeholder="Nombres" />
+								<input type="text" id="cedula" name="cedula" placeholder="CEDULA"/>
 								<input type="text" id="apellidos" name="apellidos" placeholder="Apellidos"/>
 								<input type="text" id="correo" name="correo" placeholder="Email"/>
 						        <input type="text" id="telefonos" name="telefonos" placeholder="Telefonos"/>
 						        <select id="nivel"></select>
 						        <select id="profesion"></select>
 						        <select id="ocupacion"></select>
-						        <input type="text" id="cedula" name="cedula" placeholder="CEDULA"/>
 								<textarea placeholder="Observaciones..." id="observacion"></textarea>
 									<div class="t-btn">
 										<form onsubmit="return guardar();" action="#">

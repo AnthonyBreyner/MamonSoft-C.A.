@@ -30,28 +30,31 @@ include('cabecera.php');
 				<div class="col-md-4 stop-left">
 					<div class="address">
 						<h4>DIRECCIOM</h4>
-						<p>Planeto Ltd.<span>Drayton Park 243</span>N5 1BU London</p>
+						<p>
+						Avenida 4 Bolívar entre Calles 18 y 19,<span> Centro Profesional Freddy-Al, Piso 2,</span>  Núcleo 5, Oficina 3,	
+						Casco Central de <span> Estado Mérida. </span></p>
 					</div>
 					<div class="email">
 						<h4>EMAIL</h4>
 						<p><a href="mailto:example@email.com">mamonsoft.ca@gmail.com</a></p>
 					</div>
 					<div class="phone">
-						<h4>TELEFONO</h4>
-						<p>0274-227778</p>
+						<h4>TELEFONOS</h4>
+						<p>(0426) 554.94.35</p>
+						<p>(0414) 741.24.45</p>
 					</div>
 				</div>
 				<div class="col-md-8 stop-left">
-					<h4>SAY HELLO</h4>
+					<h4>MamonSoft</h4>
 					<div class="stop-btm">
-						<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nombre';}" />
-						<input type="text" value="Website" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Website';}" />
+						<input type="text" value="Nombre" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nombre';}" />
+						<input type="text" value="Cedula" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Website';}" />
 						<input type="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" />
-				        <input type="text" value="Phone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone';}" />
-						<textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
+				        <input type="text" value="Telefono" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone';}" />
+						<textarea value="Mensaje:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Mensaje...</textarea>
 							<div class="s-btn">
 								<form>
-									<input type="submit" value="SEND MESSAGE">
+									<input type="submit" value="ENVIAR">
 						    	</form>
 						    </div>	
 					</div>
