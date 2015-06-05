@@ -43,25 +43,30 @@ include('cabecera.php');
 						<div class="tb-one" id="descripcion"></div>
 					</div>
 
-					<div class="tb-one">
+					<!--<div class="tb-one">-->
 					    <br>
 						<h3>Estoy intersado en esto:</h3>
-							<div class="tb-two">
-								<input type="text" id="nombres" name="nombres" placeholder="Nombres" />
-								<input type="text" id="cedula" name="cedula" placeholder="CEDULA"/>
-								<input type="text" id="apellidos" name="apellidos" placeholder="Apellidos"/>
-								<input type="text" id="correo" name="correo" placeholder="Email"/>
-						        <input type="text" id="telefonos" name="telefonos" placeholder="Telefonos"/>
-						        <select id="nivel"></select>
-						        <select id="profesion"></select>
-						        <select id="ocupacion"></select>
-								<textarea placeholder="Observaciones..." id="observacion"></textarea>
+							<!--<div class="tb-two">-->
+								<input type="text"class="text" id="nombres" name="nombres" placeholder="Nombres" />
+								<input type="text" class="text" id="apellidos" name="apellidos" placeholder="Apellidos"/>
+								<input type="text" class="text" id="cedula" name="cedula" placeholder="Cedula"/>
+								<input type="text" class="text" id="correo" name="correo" placeholder="Email"/>
+						        <input type="text" class="text" id="telefonos" name="telefonos" placeholder="Telefonos"/>
+						        <input type="text" class="text" id="institucion" name="institucion" placeholder="Institucion donde trabaja"/>
+						        <select class="select" id="nivel"></select>
+						        <select class="select" id="profesion"></select>
+						        <select class="select" id="ocupacion"></select>
+								<textarea placeholder="Observaciones..." class="textarea" id="observacion"></textarea>
+								
 									<div class="t-btn">
 										<form onsubmit="return guardar();" action="#">
+											<div class="tb-one">
 											<input type="submit" value="Enviar">
+								    	    </div>
 								    	</form>
-								    </div>
-						    </div>				
+								    	
+								 <!--   </div>-->
+						    <!--</div>-->				
 					</div>
 				</div>
 			</div>
