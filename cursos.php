@@ -47,12 +47,17 @@ include('cabecera.php');
 					    <br>
 						<h3>Estoy intersado en esto:</h3>
 							<div class="tb-two">
+							  
 								<input type="text" id="nombres" name="nombres" placeholder="Nombres" />
 								<input type="text" id="apellidos" name="apellidos" placeholder="Apellidos"/>
+								
+								<div class="tb-two">
 								<input type="text" id="cedula" name="cedula" placeholder="Cedula"/>
 								<input type="text" id="correo" name="correo" placeholder="Email"/>
 						        <input type="text" id="telefonos" name="telefonos" placeholder="Telefonos"/>
-						        <input type="text"style="margin-left: 20px" id="institucion" name="institucion" placeholder="Institucion donde trabaja"/>
+						        <input type="text" id="institucion" name="institucion" placeholder="Institucion donde trabaja"/>
+						       </div> 
+						    
 						        <select class="select" id="nivel"></select>
 						        <select class="select" id="profesion"></select>
 						        <select class="select" id="ocupacion"></select>
