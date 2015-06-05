@@ -56,7 +56,7 @@ Mejorando el aspecto y la factibilidad</h3>
 								<input type="text" placeholder="Institución" id="insti" name="insti" />
 								<input type="text" placeholder="Email" id="correo" name="correo" />
 						        <input type="text" placeholder="Telefonos" id="telefono" name="telefono" />
-								<textarea placeholder="Mensaje" id="mensaje" name="mensaje"></textarea>
+								<textarea placeholder="Mensaje" class="textarea" id="mensaje" name="mensaje"></textarea>
 									<div class="t-btn">
 										<form action="#" method="post" onsubmit="return guardar();">
 											<input type="submit" value="Enviar">
@@ -87,7 +87,7 @@ MamonSoft está interesado en poder brindarle el mejor servicio y las herramient
 								<input type="text" placeholder="Empresa" id="instiM" name="instiM" />
 								<input type="text" placeholder="Email" id="correoM" name="correoM" />
 						        <input type="text" placeholder="Telefonos" id="telefonoM" name="telefonoM" />
-								<textarea placeholder="Describa lo que necesita"  id="mensajeM" name="mensajeM"></textarea>
+								<textarea placeholder="Describa lo que necesita" class="textarea" id="mensajeM" name="mensajeM"></textarea>
 									<div class="t-btn">
 										<form  action="#" method="post" onsubmit="return guardar2();">
 											<input type="submit" value="Enviar">

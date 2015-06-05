@@ -1577,6 +1577,9 @@ ul.tabs-menu li a:hover{
 .tb-two{
 	margin-top:2px;
 }
+.select{
+	margin-top:2px;
+}
 .tb-one input[type=submit] {
   	color: #414141;
   	padding: 9px 24px;
@@ -3194,6 +3197,9 @@ ul.navig li a {
   font-size: 12px;
 }
 .tb-two {
+  margin-top: 4px;
+}
+.select {
   margin-top: 4px;
 }
 .tab-grid {
