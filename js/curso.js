@@ -76,6 +76,7 @@ function guardar(){
     var nivel = $("#nivel").val();
     var cedula = $("#cedula").val();
     var observacion = $("#observacion").val();
+    var insti = $("#institucion").val();
     if(curso == 0 || nombres =='' || apellidos == '' || telefonos == '' || correo == '' || ocupacion == 0 || profesion == 0 || nivel == 0 || cedula==''){
         alert("Debe ingresar todos los datos");
         return false;
@@ -90,6 +91,7 @@ function guardar(){
     cadena.append('profesion', profesion);
     cadena.append('observacion', observacion);
     cadena.append('cedula', cedula);
+    cadena.append('insti', insti);
     $.ajax({
         url : "solicitarCurso.php",
         type : 'POST',

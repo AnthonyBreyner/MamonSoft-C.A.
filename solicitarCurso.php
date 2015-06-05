@@ -1,9 +1,9 @@
 <?php
 include("datos/conexion.php");
 require_once ("inc/PHPMail/class.phpmailer.php");
-$inserta = "INSERT into solicitud_curso(nombres,apellidos,telefonos,correo,observacion,cedula,nivel,ocupacion,profesion,curso)
+$inserta = "INSERT into solicitud_curso(nombres,apellidos,telefonos,correo,observacion,cedula,nivel,ocupacion,profesion,curso,insti)
             VALUES ('".$_POST['nombres']."','".$_POST['apellidos']."','".$_POST['telefonos']."','".$_POST['correo']."','".$_POST['observacion']."','".$_POST['cedula']."',
-            ".$_POST['nivel'].",".$_POST['ocupacion'].",".$_POST['profesion'].",".$_POST['curso'].")";
+            ".$_POST['nivel'].",".$_POST['ocupacion'].",".$_POST['profesion'].",".$_POST['curso'].",'".$_POST['insti']."')";
 $resultado = mysql_query($inserta);
 if($resultado) {
     echo "Se registro con exito";
