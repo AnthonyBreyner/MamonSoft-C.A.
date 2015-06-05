@@ -58,10 +58,10 @@ include('cabecera.php');
 						        <input type="text" id="institucion" name="institucion" placeholder="Institucion donde trabaja"/>
 						       </div> 
 						    	
-						        <select  class="select" id="nivel"></select>
+						   		<div class="tb-two">
 						        <select  class="select" id="profesion"></select>
 						        <select  class="select" id="ocupacion"></select>
-						      
+						      </div>
 								<textarea placeholder="Observaciones..." class="textarea" id="observacion"></textarea>
 								
 									<div class="t-btn">
