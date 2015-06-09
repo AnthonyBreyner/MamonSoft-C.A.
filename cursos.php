@@ -57,11 +57,11 @@ include('cabecera.php');
 						        <input type="text" id="telefonos" name="telefonos" placeholder="Telefonos"/>
 						        <input type="text" id="institucion" name="institucion" placeholder="Institucion donde trabaja"/>
 						       </div> 
-						    	
-						        <select  class="select" id="nivel"></select>
+						    
+						        <center><select  class="select" id="nivel"></select>
 						        <select  class="select" id="profesion"></select>
-						        <select  class="select" id="ocupacion"></select>
-						      
+						        <select  class="select" id="ocupacion"></select></center>
+						 
 								<textarea placeholder="Observaciones..." class="textarea" id="observacion"></textarea>
 								
 									<div class="t-btn">
