@@ -58,9 +58,9 @@ include('cabecera.php');
 						        <input type="text" id="institucion" name="institucion" placeholder="Institucion donde trabaja"/>
 						       </div> 
 						    
-						        <center><select  class="select" id="nivel"></select>
+						        <select  class="select" id="nivel"></select>
 						        <select  class="select" id="profesion"></select>
-						        <select  class="select" id="ocupacion"></select></center>
+						        <select  class="select" id="ocupacion"></select>
 						 
 								<textarea placeholder="Observaciones..." class="textarea" id="observacion"></textarea>
 								
