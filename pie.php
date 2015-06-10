@@ -15,7 +15,7 @@
 						<h3>CONTACTENOS</h3>
 						<p>(0426) 554.94.35</p>
 						<p>(0414) 741.24.45</p>
-						<p><a href="mamonsoft.ca@gmail.com">mamonsoft.ca@gmail.com</a></p>
+						<p><a href="mamonsoft.ca@gmail.com" target="_blank">mamonsoft.ca@gmail.com</a></p>
 					</div>
 					<div class="clearfix"></div>
 				</div>

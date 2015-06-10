@@ -36,7 +36,7 @@ include('cabecera.php');
 					</div>
 					<div class="email">
 						<h4>EMAIL</h4>
-						<p><a href="mailto:example@email.com">mamonsoft.ca@gmail.com</a></p>
+						<p><a href="mamonsoft.ca@gmail.com" target="_blank">mamonsoft.ca@gmail.com</a></p>
 					</div>
 					<div class="phone">
 						<h4>TELEFONOS</h4>
