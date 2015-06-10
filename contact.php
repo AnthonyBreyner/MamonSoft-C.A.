@@ -47,15 +47,15 @@ include('cabecera.php');
 				<div class="col-md-8 stop-left">
 					<h4>MamonSoft</h4>
 					<div class="stop-btm">
-						<input type="text" value="Nombre" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nombre';}" />
-						<input type="text" value="Cedula" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Website';}" />
-						<input type="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" />
-				        <input type="text" value="Telefono" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone';}" />
-						<textarea value="Mensaje:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Mensaje...</textarea>
+						<input type="text" id="nombres" name="nombres" placeholder="Nombre y Apellido"/>
+						<input type="text" id="cedula" name="cedula" placeholder="Cedula"  />
+						<input type="text" id="correo" name="correo" placeholder="Email"  />
+				        <input type="text" id="telefono" name="telefono" placeholder="Telefono" />
+						<textarea id="mensaje" name="mensaje" placeholder="Mensaje..."></textarea>
 							<div class="s-btn">
-								<form>
-									<input type="submit" value="ENVIAR">
-						    	</form>
+								<form action="#" method="post" onsubmit="return guardar();">
+											<input type="submit" value="Enviar">
+								 </form>
 						    </div>	
 					</div>
 				</div>
@@ -64,6 +64,7 @@ include('cabecera.php');
 		</div>
 	</div>
 	<!--end-banner-->
+	<script type="text/javascript" src="js/contacto.js"></script>
 <?php
 	include('pie.php');
 ?>
