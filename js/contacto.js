@@ -1,11 +1,12 @@
 function guardar(){
     var cadena = new FormData();
     var nombres = $("#nombres").val();
+    alert(1);
     var cedula = $("#cedula").val();
     var correo = $("#correo").val();
     var telefono = $("#telefono").val();
     var mensaje = $("#mensaje").val();
-    if(nombre =='' || cedula=='' || correo == '' || telefonos == '' ){
+    if(nombres =='' || cedula=='' || correo == '' || telefono == '' ){
         alert("Debe ingresar todos los datos");
         return false;
     }
@@ -14,6 +15,7 @@ function guardar(){
     cadena.append('correo', correo);
     cadena.append('telefono', telefono);
     cadena.append('mensaje', mensaje);
+    alert(2);
     $.ajax({
         url : "contacto.php",
         type : 'POST',
