@@ -7,10 +7,10 @@ $resultado = mysql_query($inserta);
 if($resultado) {
     echo "Se registro con exito";
     $ruta = "Bienvenido(a).
-             <br><br>
+             <br>
+             <br>
 			La Familia de MamonSoft le  agradece su interés por ingresar a nuestra base de datos, nos comunicaremos con usted al ver el mensaje. 
-		    <br><br>
-
+		    
 			";
 
     $mail = new PHPMailer ();
