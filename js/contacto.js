@@ -14,6 +14,8 @@ function guardar(){
     cadena.append('correo', correo);
     cadena.append('telefono', telefono);
     cadena.append('mensaje', mensaje);
+    $('#cargando').html('<img src="images/loading.gif"/>');
+    $(".cajaexterna").show();
     $.ajax({
         url : "contacto.php",
         type : 'POST',
@@ -24,6 +26,8 @@ function guardar(){
         success : function(msj) {
             alert(msj);
             limpiar();
+           $('#cargando').html('');
+           $(".cajaexterna").hide();
         }
     });
     return false;

@@ -26,6 +26,9 @@ include('cabecera.php');
 			<div class="stop-top">
 				<h3>CONTACTENOS</h3>
 			</div>
+			<div class="cajaexterna">
+			<div id="cargando" class="cajacentrada"></div>
+			</div>
 			<div class="stop-bottom">
 				<div class="col-md-4 stop-left">
 					<div class="address">
@@ -36,7 +39,7 @@ include('cabecera.php');
 					</div>
 					<div class="email">
 						<h4>EMAIL</h4>
-						<p><a href="mamonsoft.ca@gmail.com" target="_blank">mamonsoft.ca@gmail.com</a></p>
+						<p><a href="https://plus.google.com/u/0/106132533452799309051/posts" target="_blank">mamonsoft.ca@gmail.com</a></p>
 					</div>
 					<div class="phone">
 						<h4>TELEFONOS</h4>
@@ -44,6 +47,7 @@ include('cabecera.php');
 						<p>(0414) 741.24.45</p>
 					</div>
 				</div>
+				
 				<div class="col-md-8 stop-left">
 					<h4>MamonSoft</h4>
 					<div class="stop-btm">
@@ -65,6 +69,7 @@ include('cabecera.php');
 	</div>
 	<!--end-banner-->
 	<script type="text/javascript" src="js/contacto.js"></script>
+	
 <?php
 	include('pie.php');
 ?>
