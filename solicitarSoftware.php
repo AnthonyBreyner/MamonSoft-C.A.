@@ -33,7 +33,7 @@ if($resultado) {
     $mail->AltBody = "Texto Alternativo"; // optional, comment out and test
     $mail->MsgHTML ( $cuerpo );
     $address = $_POST['correo'];
-    $name = $_POST['nombres'];
+    $name = $_POST['nombre'];
     $mail->AddAddress ( $address, $name );
 
     if (! $mail->Send ()) {
