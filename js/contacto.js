@@ -1,3 +1,13 @@
+function ocultar() {
+        $(".cajaexterna").fadeOut("fast", function() {
+            if(mozillaPresente) {
+            setTimeout(function() {
+                $(".cajainterna").removeClass("bounceIn");
+            }, 5);
+        }
+        });         
+    }
+
 function guardar(){
     var cadena = new FormData();
     var nombres = $("#nombres").val();
@@ -24,10 +34,11 @@ function guardar(){
         processData : false,
         cache : false,
         success : function(msj) {
-            alert(msj);
+           
             limpiar();
-           $('#cargando').html('');
-           $(".cajaexterna").hide();
+           $('#cargando').html('<div class="banner-top"><h1>'+msj+'</h1></div>');
+           $("a.cerrarmodal").click(ocultar);
+           //$(".cajaexterna").hide();
         }
     });
     return false;

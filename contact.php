@@ -27,7 +27,11 @@ include('cabecera.php');
 				<h3>CONTACTENOS</h3>
 			</div>
 			<div class="cajaexterna">
-			<div id="cargando" class="cajacentrada"></div>
+				<div id="cargando" class="cajacentrada"></div>
+				<a href="contact.php">
+				<div class="cerrar">
+      				 <a href="contact.php" class="cerrarmodal">Cerrar</a>
+     			</div></a>
 			</div>
 			<div class="stop-bottom">
 				<div class="col-md-4 stop-left">
