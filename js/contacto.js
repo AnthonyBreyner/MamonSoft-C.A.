@@ -1,11 +1,5 @@
 function ocultar() {
-        $(".cajaexterna").fadeOut("fast", function() {
-            if(mozillaPresente) {
-            setTimeout(function() {
-                $(".cajainterna").removeClass("bounceIn");
-            }, 5);
-        }
-        });         
+        $(".cajaexterna").hide();
     }
 
 function guardar(){
@@ -36,8 +30,7 @@ function guardar(){
         success : function(msj) {
            
             limpiar();
-           $('#cargando').html('<div class="banner-top"><h1>'+msj+'</h1></div>');
-           $("a.cerrarmodal").click(ocultar);
+           $('#cargando').html('<div class="banner-top"><h1>'+msj+'</h1></div><div class="cerrar"><a href="#" onclick="ocultar();" class="cerrarmodal">Cerrar</a></div>');
            //$(".cajaexterna").hide();
         }
     });
