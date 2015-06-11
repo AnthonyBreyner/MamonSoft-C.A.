@@ -6,7 +6,7 @@ $inserta = "INSERT into solicitud_curso(nombres,apellidos,telefonos,correo,obser
             ".$_POST['nivel'].",".$_POST['ocupacion'].",".$_POST['profesion'].",".$_POST['curso'].",'".$_POST['insti']."')";
 $resultado = mysql_query($inserta);
 if($resultado) {
-    echo "Se registro con exito";
+   
     $ruta = "Bienvenido(a).
              <br><br>
 			La Familia de MamonSoft le  agradece su interés por ingresar a nuestra base de datos, la cual le ofrece la posibilidad de ser considerado(a) para

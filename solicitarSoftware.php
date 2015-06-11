@@ -5,7 +5,6 @@ $inserta = "INSERT into solicitud_software(nombre,insti,telefonos,correo,softwar
             VALUES ('".$_POST['nombre']."','".$_POST['insti']."','".$_POST['telefonos']."','".$_POST['correo']."','".$_POST['software']."','".$_POST['mensaje']."')";
 $resultado = mysql_query($inserta);
 if($resultado) {
-    echo "Se registro con exito";
     $ruta = "Bienvenido(a).
              <br><br>
 			La Familia de MamonSoft le  agradece su interés por ingresar a nuestra base de datos, la cual le ofrece la posibilidad de ser considerado(a) para
