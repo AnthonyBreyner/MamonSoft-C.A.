@@ -1,3 +1,7 @@
+function ocultar() {
+        $(".cajaexterna").hide();
+    }
+
 function cursos(){
     $.ajax({
         url : 'cursosJson.php',
@@ -102,10 +106,9 @@ function guardar(){
         processData : false,
         cache : false,
         success : function(msj) {
-            alert(msj);
             limpiar();
-            $('#cargando').html('');
-            $(".cajaexterna").hide();
+            $('#cargando').html('<div class="banner-top"><h1>'+msj+'</h1></div><div class="cerrar"><a href="#" onclick="ocultar();" class="cerrarmodal">Cerrar</a></div>');
+            //$(".cajaexterna").hide();
         }
     });
     return false;

@@ -1,3 +1,7 @@
+function ocultar() {
+        $(".cajaexterna").hide();
+    }
+
 function guardar(){
     var cadena = new FormData();
     var insti = $("#insti").val();
@@ -26,9 +30,8 @@ function guardar(){
         processData : false,
         cache : false,
         success : function(msj) {
-            alert(msj);
             limpiar();
-            //$('#cargando').html('');
+            $('#cargando').html('<div class="banner-top"><h1>'+msj+'</h1></div><div class="cerrar"><a href="#" onclick="ocultar();" class="cerrarmodal">Cerrar</a></div>');
             //$(".cajaexterna").hide();
         }
     });
@@ -72,10 +75,10 @@ function guardar2(){
         processData : false,
         cache : false,
         success : function(msj) {
-            alert(msj);
+           
             limpiar2();
-            $('#cargando').html('');
-            $(".cajaexterna").hide();
+            $('#cargando').html('<div class="banner-top"><h1>'+msj+'</h1></div><div class="cerrar"><a href="#" onclick="ocultar();" class="cerrarmodal">Cerrar</a></div>');
+            //$(".cajaexterna").hide();
         }
     });
     return false;
