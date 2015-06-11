@@ -75,7 +75,6 @@ function guardar2(){
         processData : false,
         cache : false,
         success : function(msj) {
-           
             limpiar2();
             $('#cargando').html('<div class="banner-top"><h1>'+msj+'</h1></div><div class="cerrar"><a href="#" onclick="ocultar();" class="cerrarmodal">Cerrar</a></div>');
             //$(".cajaexterna").hide();

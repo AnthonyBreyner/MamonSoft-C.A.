@@ -22,7 +22,7 @@
 				<div class="footer-bottom">
 					<div class="col-md-4 footer-left">
 						<ul>
-							<li><a href="#"><span class="fb"> </span></a></li>
+							<li><a href="https://www.facebook.com/mamonsoft1ca" target="_blank"><span class="fb"> </span></a></li>
 							<li><a href="https://twitter.com/mamonsoft_ca?lang=es" target="_blank"><span class="twit"> </span></a></li>
 							<!--<li><a href="#"><span class="sky"> </span></a></li>-->
 						</ul>
