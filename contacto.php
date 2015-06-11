@@ -9,7 +9,7 @@ if($resultado) {
     $ruta = "Bienvenido(a).
              <br>
              <br>
-			La Familia de MamonSoft le  agradece su interés por ingresar a nuestra base de datos, nos comunicaremos con usted ala brevedad posible. 
+			La Familia de MamonSoft le  agradece su interés por ingresar a nuestra base de datos, nos comunicaremos con usted a la brevedad posible. 
 		    
 			";
 
