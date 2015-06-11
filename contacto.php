@@ -5,7 +5,6 @@ $inserta = "INSERT into contacto(nombres,cedula,correo,telefono,mensaje)
             VALUES ('".$_POST['nombres']."','".$_POST['cedula']."','".$_POST['correo']."','".$_POST['telefono']."','".$_POST['mensaje']."')";
 $resultado = mysql_query($inserta);
 if($resultado) {
-    echo "Se registro con exito";
     $ruta = "Bienvenido(a).
              <br>
              <br>
