@@ -21,6 +21,9 @@ include('cabecera.php');
 		 <!-- script-for-menu -->	
 	<!--end-banner-->
 	<!--start-carrer-->
+	<div class="cajaexterna">
+		<div id="cargando" class="cajacentrada"></div>
+	</div>
 	<div class="carrer">
 		<div class="container">
 			<div class="carrer-top">
@@ -48,9 +51,6 @@ Mejorando el aspecto y la factibilidad</h3>
 					<div class="tb-one">
 						<h3>Nuestro principal objetivo.</h3>
 						<p>Es proporcionales una herramienta que les permita consolidar todas las operaciones de gestión escolar automatizada, bajo un sólido concepto y una amigable interfaz, que se convertirá en su mejor aliada en el proceso para automatizar los procedimientos administrativos y académicos en las instituciones educativas.</p>
-					</div>
-					<div class="cajaexterna">
-					<div id="cargando" class="cajacentrada"></div>
 					</div>
 					<div class="tb-one">
 						<h3>Obtén Gesaodin gratis:</h3>
