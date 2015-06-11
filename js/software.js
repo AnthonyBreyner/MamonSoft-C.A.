@@ -16,6 +16,8 @@ function guardar(){
     cadena.append('correo', correo);
     cadena.append('mensaje', mensaje);
     cadena.append('software', 'gesaodin');
+    $('#cargando').html('<img src="images/loading.gif"/>');
+    $(".cajaexterna").show();
     $.ajax({
         url : "solicitarSoftware.php",
         type : 'POST',
@@ -26,6 +28,8 @@ function guardar(){
         success : function(msj) {
             alert(msj);
             limpiar();
+            //$('#cargando').html('');
+            //$(".cajaexterna").hide();
         }
     });
     return false;
@@ -58,6 +62,8 @@ function guardar2(){
     cadena.append('correo', correo);
     cadena.append('mensaje', mensaje);
     cadena.append('software', 'medida');
+    $('#cargando').html('<img src="images/loading.gif"/>');
+    $(".cajaexterna").show();
     $.ajax({
         url : "solicitarSoftware.php",
         type : 'POST',
@@ -68,6 +74,8 @@ function guardar2(){
         success : function(msj) {
             alert(msj);
             limpiar2();
+            $('#cargando').html('');
+            $(".cajaexterna").hide();
         }
     });
     return false;

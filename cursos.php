@@ -42,7 +42,9 @@ include('cabecera.php');
 						<h3 id="titulo"></h3>
 						<div class="tb-one" id="descripcion"></div>
 					</div>
-
+					<div class="cajaexterna">
+					<div id="cargando" class="cajacentrada"></div>
+				    </div>
 					<div class="tb-one">
 					    <br>
 						<h3>Estoy intersado en esto:</h3>

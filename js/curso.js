@@ -92,6 +92,8 @@ function guardar(){
     cadena.append('observacion', observacion);
     cadena.append('cedula', cedula);
     cadena.append('insti', insti);
+    $('#cargando').html('<img src="images/loading.gif"/>');
+    $(".cajaexterna").show();
     $.ajax({
         url : "solicitarCurso.php",
         type : 'POST',
@@ -102,6 +104,8 @@ function guardar(){
         success : function(msj) {
             alert(msj);
             limpiar();
+            $('#cargando').html('');
+            $(".cajaexterna").hide();
         }
     });
     return false;

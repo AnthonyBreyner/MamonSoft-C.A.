@@ -27,7 +27,7 @@ include('cabecera.php');
 				<h3>404</h3>
 				<p>oops! En Reparaciones</p>
 				<div class="error-btn">
-					<a href="index.php">Regresar al Menu</a>
+					<a href="index.php">Regresar al Inicio</a>
 				</div>
 			</div>
 		</div>

@@ -15,7 +15,7 @@
 						<h3>CONTACTENOS</h3>
 						<p>(0426) 554.94.35</p>
 						<p>(0414) 741.24.45</p>
-						<p><a href="mamonsoft.ca@gmail.com" target="_blank">mamonsoft.ca@gmail.com</a></p>
+						<p><a href="https://plus.google.com/u/0/106132533452799309051/posts" target="_blank">mamonsoft.ca@gmail.com</a></p>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -23,12 +23,12 @@
 					<div class="col-md-4 footer-left">
 						<ul>
 							<li><a href="#"><span class="fb"> </span></a></li>
-							<li><a href="#"><span class="twit"> </span></a></li>
-							<li><a href="#"><span class="sky"> </span></a></li>
+							<li><a href="https://twitter.com/mamonsoft_ca?lang=es" target="_blank"><span class="twit"> </span></a></li>
+							<!--<li><a href="#"><span class="sky"> </span></a></li>-->
 						</ul>
 					</div>
 					<div class="col-md-4 footer-middle">
-						<p><a href=""> MamonSoft C.A.</a></p>
+						<p><a href="index.php"> MamonSoft C.A.</a></p>
 					</div>
 					<div class="col-md-4 footer-right">
 						<p><a href="#home" class="scroll">IR ARRIBA</a></p>

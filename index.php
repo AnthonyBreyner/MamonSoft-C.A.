@@ -128,7 +128,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h3>TENEMOS UNA IDEA PARA TODO</h3>
 						<p>Software a la medida. Este servicio es ideal para aquellas empresas u organizaciones que requieran de la adquisición de un sistema para automatizar sus procesos, que esté hecho justamente como ellos lo desean y que se acople a su estructura de trabajo.</p>
 						<div class="i-btn">
-							<a href="services.php">LEER MAS</a>
+							<a href="carrers.php">VER MAS</a>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -138,7 +138,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h3>A UN PASO DE TUS METAS</h3>
 						<p>Cursos y talleres. Encontrarás cursos de formación que te ayudarán a ampliar conocimientos en temas que te interesan, información que te permitirá optimizar la forma en la que te presentas a una oferta de trabajo y recursos para poner en marcha tu propio proyecto emprendedor.</p>
 						<div class="i-btn">
-							<a href="services.php">LEER MAS</a>
+							<a href="cursos.php">VER MAS</a>
 						</div>
 					</div>
 					<div class="col-md-5 idea-left id-one-right">
