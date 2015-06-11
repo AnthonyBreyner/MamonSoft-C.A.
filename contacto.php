@@ -19,7 +19,7 @@ if($resultado) {
     // $body = preg_replace('/[\]/','',$body);
     $mail->IsSMTP (); // telling the class to use SMTP
 
-    $mail->SMTPDebug = 2;
+    $mail->SMTPDebug = 0;
     $mail->Host = "smtp.gmail.com";
     $mail->SMTPSecure = "tls";
     $mail->SMTPAuth = true; // enable SMTP authentication $mail->SMTPKeepAlive = true; // SMTP connection will not close after each email sent
