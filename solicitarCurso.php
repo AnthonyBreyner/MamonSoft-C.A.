@@ -1,9 +1,9 @@
 <?php
 include("datos/conexion.php");
 require_once ("inc/PHPMail/class.phpmailer.php");
-$inserta = "INSERT into solicitud_curso(nombres,apellidos,telefonos,correo,observacion,cedula,nivel,ocupacion,profesion,curso,insti)
-            VALUES ('".$_POST['nombres']."','".$_POST['apellidos']."','".$_POST['telefonos']."','".$_POST['correo']."','".$_POST['observacion']."','".$_POST['cedula']."',
-            ".$_POST['nivel'].",".$_POST['ocupacion'].",".$_POST['profesion'].",".$_POST['curso'].",'".$_POST['insti']."')";
+$inserta = "INSERT into solicitud_curso(nacionalidad,nombres,telefonos,correo,observacion,cedula,nivel,ocupacion,profesion,curso,insti,participantes,celular)
+            VALUES (".$_POST['nacionalidad'].",'".$_POST['nombres']."','".$_POST['telefonos']."','".$_POST['correo']."','".$_POST['observacion']."','".$_POST['cedula']."',
+            ".$_POST['nivel'].",".$_POST['ocupacion'].",".$_POST['profesion'].",".$_POST['curso'].",'".$_POST['insti']."','".$_POST['participantes']."','".$_POST['celular']."')";
 $resultado = mysql_query($inserta);
 if($resultado) {
    
@@ -35,7 +35,7 @@ if($resultado) {
     $mail->AltBody = "Texto Alternativo"; // optional, comment out and test
     $mail->MsgHTML ( $cuerpo );
     $address = $_POST['correo'];
-    $name = $_POST['nombres'] . " " . $_POST['apellidos'];
+    $name = $_POST['nombres'];
     $mail->AddAddress ( $address, $name );
 
     if (! $mail->Send ()) {

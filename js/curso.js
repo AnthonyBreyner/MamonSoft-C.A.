@@ -2,6 +2,22 @@ function ocultar() {
         $(".cajaexterna").hide();
     }
 
+function habilitar(value)
+{
+
+    if(value=="3")
+    {
+        // habilitamos
+        $('#participantes').attr("disabled",false);
+        $('#participantes').val('');
+    }else if(value=="1" || value=="2"){
+        // deshabilitamos
+    	
+    	$('#participantes').val(1);
+    	$('#participantes').attr("disabled",true);   
+    }
+}
+
 function cursos(){
     $.ajax({
         url : 'cursosJson.php',
@@ -71,23 +87,26 @@ function profe(){
 function guardar(){
     var cadena = new FormData();
     var curso = $("#lista_cursos").val();
+    var nacionalidad = $("#nac").val();
     var nombres = $("#nombres").val();
-    var apellidos = $("#apellidos").val();
-    var telefonos = $("#telefonos").val();
+    var cedula = $("#cedula").val();
     var correo = $("#correo").val();
+    var telefonos = $("#telefonos").val();
     var ocupacion = $("#ocupacion").val();
     var profesion = $("#profesion").val();
     var nivel = $("#nivel").val();
     var cedula = $("#cedula").val();
     var observacion = $("#observacion").val();
     var insti = $("#institucion").val();
-    if(curso == 0 || nombres =='' || apellidos == '' || telefonos == '' || correo == '' || ocupacion == 0 || profesion == 0 || nivel == 0 || cedula==''){
+    var participantes = $("#participantes").val();
+    var celular = $("#celular").val();
+    if(curso == 0 || nombres =='' || celular == '' || nacionalidad =='' || telefonos == '' || correo == '' || ocupacion == 0 || profesion == 0 || nivel == 0 || cedula==''){
         alert("Debe ingresar todos los datos");
         return false;
     }
     cadena.append('curso', curso);
+    cadena.append('nacionalidad', nacionalidad);
     cadena.append('nombres', nombres);
-    cadena.append('apellidos', apellidos);
     cadena.append('telefonos', telefonos);
     cadena.append('correo', correo);
     cadena.append('nivel', nivel);
@@ -96,6 +115,8 @@ function guardar(){
     cadena.append('observacion', observacion);
     cadena.append('cedula', cedula);
     cadena.append('insti', insti);
+    cadena.append('participantes', participantes);
+    cadena.append('celular', celular);
     $('#cargando').html('<img src="images/loading.gif"/>');
     $(".cajaexterna").show();
     $.ajax({
@@ -115,10 +136,19 @@ function guardar(){
 }
 
 function limpiar(){
-    $("#nombres").val("");
-    $("#apellidos").val("");
+	$("#institucion").val("");
+    $("#nac").val("0");
+	$("#nombres").val("");
+    $("#participantes").val("");
     $("#cedula").val("");
     $("#telefonos").val("");
     $("#correo").val("");
     $("#observacion").val("");
+    $("#celular").val("");
+    $("#nivel").val("0");
+    $("#ocupacion").val("0");
+    $("#profesion").val("0");
+    $("#lista_cursos").val("0");
+    $("#titulo").html("");
+    $("#descripcion").text(""); 
 }

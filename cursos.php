@@ -1,7 +1,7 @@
 <?php
 include('cabecera.php');
 ?>
-				<div class="clearfix"></div>
+			<div class="clearfix"></div>
 			</div>
 			<div class="banner-main">
 				<div class="container">	
@@ -49,17 +49,20 @@ include('cabecera.php');
 					    <br>
 						<h3>Estoy intersado en esto:</h3>
 							<div class="tb-two">
-							  
-								<input type="text" id="nombres" name="nombres" placeholder="Nombres" />
-								<input type="text" id="apellidos" name="apellidos" placeholder="Apellidos"/>
-								
-								<div class="tb-two">
-								<input type="text" id="cedula" name="cedula" placeholder="Cedula"/>
+								<select  class="select1" name="nac" id="nac" onchange="habilitar(this.value)">
+								<option selected>Nacionalidad</option>
+								<option value="1">Venezolano</option>
+								<option value="2">Extranjero</option>
+								<option value="3">Juridico</option>
+								</select>				  
+								<input type="text" id="nombres" name="nombres" placeholder="Nombre y Apellido / Razon Social" />
+								</div>
+								<input type="text" id="cedula" name="cedula" placeholder="Cedula o RIF"/>
 								<input type="text" id="correo" name="correo" placeholder="Email"/>
-						        <input type="text" id="telefonos" name="telefonos" placeholder="Telefonos"/>
 						        <input type="text" id="institucion" name="institucion" placeholder="Institucion donde trabaja"/>
-						       </div> 
-						    
+						        <input type="text" id="participantes" name="participantes" placeholder="Cantidad de Participantes"/>
+						    	<input type="text" id="telefonos" name="telefonos" placeholder="Telefono de habitacion / oficina"/>
+						    	<input type="text" id="celular" name="celular" placeholder="Telefono celular"/>
 						        <select  class="select" id="nivel"></select>
 						        <select  class="select" id="profesion"></select>
 						        <select  class="select" id="ocupacion"></select>
