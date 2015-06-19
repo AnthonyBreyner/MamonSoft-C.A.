@@ -5,7 +5,7 @@ function ocultar() {
 function habilitar(value)
 {
 
-    if(value=="3")
+    if(value=="3" || value=="4")
     {
         // habilitamos
         $('#participantes').attr("disabled",false);

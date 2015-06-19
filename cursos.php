@@ -54,6 +54,7 @@ include('cabecera.php');
 								<option value="1">Venezolano</option>
 								<option value="2">Extranjero</option>
 								<option value="3">Juridico</option>
+								<option value="4">Institucional</option>
 								</select>				  
 								<input type="text" id="nombres" name="nombres" placeholder="Nombre y Apellido / Razon Social" />
 								</div>
