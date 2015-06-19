@@ -44,17 +44,18 @@ include('cabecera.php');
 Incluye múltiples funciones y herramientas para automatizar los procedimientos administrativos, académicos y comerciales de su institución, optimizando sus recursos ahorrándole tiempo y dinero. Dicha aplicación fue desarrollada por un grupo comprometido en diversas labores empresariales, buscando automatizar los procedimientos administrativos, académicos y comerciales en instituciones de Educación.  </p>
 					</div>
 					<br>
-						<iframe width="420" height="315" src="https://www.youtube.com/embed/WuMnLOxg6XA" frameborder="0" allowfullscreen></iframe>
+						<iframe width="420" height="315" class="video" src="https://www.youtube.com/embed/WuMnLOxg6XA" frameborder="0" allowfullscreen></iframe>
 					<div class="tb-one">
 						<h3>
 Mejorando el aspecto y la factibilidad</h3>
 						<p>GesaOdin II, presenta la mejor forma para mejorar los procesos de gestión educativa, y facilitar la coordinación entre docentes y cargos directivos, con la utilización de una única y completa aplicación de gestión académica</p>
 					</div>
 					<br>
-					<iframe width="420" height="315" src="https://www.youtube.com/embed/yugi55FhP2k" frameborder="0" allowfullscreen></iframe>
+					<iframe width="420" height="315" class="video" src="https://www.youtube.com/embed/yugi55FhP2k" frameborder="0" allowfullscreen></iframe>
 					<div class="tb-one">
 						<h3>Nuestro principal objetivo.</h3>
 						<p>Es proporcionales una herramienta que les permita consolidar todas las operaciones de gestión escolar automatizada, bajo un sólido concepto y una amigable interfaz, que se convertirá en su mejor aliada en el proceso para automatizar los procedimientos administrativos y académicos en las instituciones educativas.</p>
+						<br>
 						<p>Si quieres ver mas videos acerca de Gesaodin dale <a href="https://www.youtube.com/user/GesaOdin" target="_blank"><u>click aqui.</u></a></p>					
 					</div>
 					<div class="tb-one">

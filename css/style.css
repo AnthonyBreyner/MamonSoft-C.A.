@@ -144,6 +144,7 @@ span.menu:before {
 	cursor: pointer;	
 	height:38px;
 }
+
 ul.navig {
 	width: 11%;
 	float: right;
@@ -1634,7 +1635,7 @@ ul.tabs-menu li a:hover{
 	ul.tabs-menu {
 		left: 0px;
 	}
-	 
+ 
 }
 @media(max-width:1280px){
 	ul.tabs-menu {
@@ -1643,12 +1644,14 @@ ul.tabs-menu li a:hover{
 	.tab-grids {
 		margin-left: 5.5em;
 	}
+
 }
 @media(max-width:1024px){
 	ul.tabs-menu {
 		left: 0px;
 		width: 12%;
 	}
+
 	.tab-grids {
 		margin-left: 5.8em;
 	}
@@ -1658,6 +1661,7 @@ ul.tabs-menu li a:hover{
 		left: 0px;
 		width: 12%;
 	}
+
 	.tab-grids {
 		margin-left: 4em;
 	}
@@ -1667,6 +1671,7 @@ ul.tabs-menu li a:hover{
 		left: 0px;
 		width: 16%;
 	}
+
 	.tab-grids {
 		margin-left: 4.5em;
 	}	   
@@ -1686,6 +1691,7 @@ ul.tabs-menu li a:hover{
 	.tab-grid p{
 		font-size:0.875em;
 	}
+
 	  
 }
 @media(max-width:320px){
@@ -1703,6 +1709,9 @@ ul.tabs-menu li a:hover{
 	.tab-grid p{
 		font-size:0.875em;
 	}
+.video{
+ width: 100%
+}
 	   }
 /*--tab-end--*/
 .carrer-top{
@@ -1724,6 +1733,7 @@ ul.tabs-menu li a:hover{
   	top: 54.2%;
   	left: 39.2%;
     }
+
     .select1 {
   	width: 48%;
   	font-size: 13px;
@@ -3690,16 +3700,25 @@ div#portfoliolist {
   left: 0% !important;
   top: 61% !important;
 }
+.video{
+ width: 100%
+}
    
 }
 @media (max-width:384px){
 .banner-slide {
   top: 66% !important;
 }
+.video{
+ width: 100%
+}
 }
 @media (max-width:375px){
 .bnr-left {
   padding-left: 1%;
+}
+.video{
+ width: 100%
 }
 .bnr-right {
   padding-right: 5%;
@@ -3715,7 +3734,10 @@ div#portfoliolist {
 .logo {
   width: 35%;
   margin-left: 4.7%;
-}	
+}
+.video{
+ width: 100%
+}
 .logo a img {
   width: 100%;
 }
