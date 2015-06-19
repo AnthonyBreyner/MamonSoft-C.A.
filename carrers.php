@@ -43,14 +43,19 @@ include('cabecera.php');
 
 Incluye múltiples funciones y herramientas para automatizar los procedimientos administrativos, académicos y comerciales de su institución, optimizando sus recursos ahorrándole tiempo y dinero. Dicha aplicación fue desarrollada por un grupo comprometido en diversas labores empresariales, buscando automatizar los procedimientos administrativos, académicos y comerciales en instituciones de Educación.  </p>
 					</div>
+					<br>
+						<iframe width="420" height="315" src="https://www.youtube.com/embed/WuMnLOxg6XA" frameborder="0" allowfullscreen></iframe>
 					<div class="tb-one">
 						<h3>
 Mejorando el aspecto y la factibilidad</h3>
 						<p>GesaOdin II, presenta la mejor forma para mejorar los procesos de gestión educativa, y facilitar la coordinación entre docentes y cargos directivos, con la utilización de una única y completa aplicación de gestión académica</p>
 					</div>
+					<br>
+					<iframe width="420" height="315" src="https://www.youtube.com/embed/yugi55FhP2k" frameborder="0" allowfullscreen></iframe>
 					<div class="tb-one">
 						<h3>Nuestro principal objetivo.</h3>
 						<p>Es proporcionales una herramienta que les permita consolidar todas las operaciones de gestión escolar automatizada, bajo un sólido concepto y una amigable interfaz, que se convertirá en su mejor aliada en el proceso para automatizar los procedimientos administrativos y académicos en las instituciones educativas.</p>
+						<p>Si quieres ver mas videos acerca de Gesaodin dale <a href="https://www.youtube.com/user/GesaOdin" target="_blank"><u>click aqui.</u></a></p>					
 					</div>
 					<div class="tb-one">
 						<h3>Obtén Gesaodin gratis:</h3>
@@ -76,7 +81,7 @@ Mejorando el aspecto y la factibilidad</h3>
 En Mamonsoft Nos asociamos con nuestros clientes para comprender sus necesidades y objetivos, y así poder ofrecerles la solución que maximice el valor que éstos reciben.
 
 MamonSoft brinda los servicios de desarrollo de software a la medida. Trabajamos conjuntamente con nuestros clientes para detectar cuáles son las soluciones más eficientes para su organización, siendo este un servicio idóneo para aquellas empresas u organizaciones que requieran de la adquisición de un sistema para mejorar sus procesos, que esté desarrollado como lo desean de acuerdo a sus necesidades y que se acople a la estructura de trabajo. </p>
-					</div>
+					</div>			
 					<div class="tb-one">
 						<h3>Con el desarrollo de software a la medida.</h3>
 						<p>Su organización, podrás tener la plena certeza de que su software realizará exactamente lo que usted decida. Se creará en el menor tiempo posible (acorde a sus necesidades), la interfaz gráfica del usuario estará diseñado de manera elegante y muy sencillo de utilizar, será instalado por nuestra empresa en su computadora, además el personal será capacitado para utilizar el software de manera adecuada y eficiente. Con todo esto buscamos disminuir la cantidad de tiempo dedicado a ciertas actividades, y por tanto, ahora tendrá más tiempo para dedicar a mejorar sus productos o servicios y hacer crecer su empresa, del mismo modo disminuir errores que pueden surgir en el proceso normal del negocio, y menor número de errores igual a menos problemas, por lo tanto, existirá un aumento en la productividad y en las ventas permitiendo el aumento de la rentabilidad de su negocios.
