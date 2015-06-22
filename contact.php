@@ -34,7 +34,7 @@ include('cabecera.php');
 			<div class="stop-bottom">
 				<div class="col-md-4 stop-left">
 					<div class="address">
-						<h4>DIRECCIOM</h4>
+						<h4>DIRECCION</h4>
 						<p>
 						Avenida 4 Bolívar entre Calles 18 y 19,<span> Centro Profesional Freddy-Al, Piso 2,</span>  Núcleo 5, Oficina 3,	
 						Casco Central de<span> la Ciudad de Mérida. </span></p>

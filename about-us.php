@@ -27,7 +27,8 @@ include('cabecera.php');
 				<h3>Bienvenido a MamonSoft</h3>
 				<p>MamonSoft C.A, reúne a un amplio grupo formado en diversas áreas del conocimiento científico y tecnológico y humanístico a fines de comprender el mundo de los negocios y las necesidades gubernamentales y/o privadas del mundo.
                 Todos ellos juntos suman un potencial excelente capaz de dirigir y asesorar su empresa o institución para llevarla al mundo de los negocios virtuales y luego ponerlos al alcance de todos.
-                Somos una empresa enfocada en las reglas de los negocios actuales; coordinar, comprender y orientar de manera eficaz y eficiente esos modelos de PyME que siempre han soñado, el software a la medida adoptará con nosotros un nuevo concepto basado en la disciplina  y honestidad. </p>
+                Somos una empresa enfocada en las reglas de los negocios actuales; coordinar, comprender y orientar de manera eficaz y eficiente esos modelos de PyME que siempre han soñado, el software a la medida adoptará con nosotros un nuevo concepto basado en la disciplina  y honestidad. 
+                </p>
 			</div>	
 				<div class="about-bottom">
 					<div class="col-md-6 about-left">
