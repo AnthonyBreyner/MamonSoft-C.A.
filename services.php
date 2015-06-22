@@ -6,7 +6,7 @@ include('cabecera.php');
 			<div class="banner-main">
 				<div class="container">	
 					<div class="banner-top bnr-top">
-						<h1>"TE AYUDAMOS A ENCONTRAR LA FORMACION IDEAL"</h1>
+						<h1>"EXPERIENCIA CON LA QUE PUEDES CONTAR CALIDAD CON LA QUE PUEDES CONFIAR"</h1>
 					</div>
 				</div>
 				</div>
