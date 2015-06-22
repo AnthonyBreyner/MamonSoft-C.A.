@@ -37,7 +37,7 @@ include('cabecera.php');
 						<h4>DIRECCIOM</h4>
 						<p>
 						Avenida 4 Bolívar entre Calles 18 y 19,<span> Centro Profesional Freddy-Al, Piso 2,</span>  Núcleo 5, Oficina 3,	
-						Casco Central de<span> la ciudad de Mérida. </span></p>
+						Casco Central de<span> la Ciudad de Mérida. </span></p>
 					</div>
 					<div class="email">
 						<h4>EMAIL</h4>
