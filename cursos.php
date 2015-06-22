@@ -47,7 +47,7 @@ include('cabecera.php');
 				    </div>
 					<div class="tb-one">
 					    <br>
-						<h3>Estoy intersado en esto:</h3>
+						<h3>Estoy interesado en esto:</h3>
 							<div class="tb-two">
 								<select  class="select1" name="nac" id="nac" onchange="habilitar(this.value)">
 								<option selected>Nacionalidad</option>
