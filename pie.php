@@ -6,7 +6,7 @@
 			<div class="footer-main">
 				<div class="contact">
 					<div class="col-md-6 contact-left">
-						<a href="index.html"><img src="images/logo.jpg"style="width: 35%" alt="" /></a>
+						<a href="index.php"><img src="images/logo.jpg"style="width: 35%" alt="" /></a>
 						<p>Partimos desde lo simple a lo más complejo de los negocios, comenzamos por el entendimiento humano y la 
 						complejidad científica que representan los procesos diarios del mercado. Gracias a la adaptación y sencillez 
 						de nuestros esquemas de trabajo hacen de nosotros una excelente opción de confianza.</p>
