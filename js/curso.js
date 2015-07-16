@@ -26,7 +26,7 @@ function cursos(){
             $.each(json, function(item, valor) {
                 $("#lista_cursos").append(new Option(valor, item, false, true));
             });
-            $("#lista_cursos").append(new Option('Seleccion Curso',0, false, true));
+            $("#lista_cursos").append(new Option('Seleccione Curso',0, false, true));
         }
     });
 }
