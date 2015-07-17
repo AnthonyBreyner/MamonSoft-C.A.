@@ -67,6 +67,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <li><a href="services.php">SERVICIOS</a></li><span><img src="images/clk.png" alt="" /></span>
                 <li><a href="cursos.php">CURSOS</a></li><span><img src="images/clk.png" alt="" /></span>
                 <li><a href="carrers.php">SOFTWARE</a></li><span><img src="images/clk.png" alt="" /></span>
+                <li><a href="alianzas.php">ALIANZAS</a></li><span><img src="images/clk.png" alt="" /></span>
+                <li><a href="sugerencias.php">SUGERENCIAS</a></li><span><img src="images/clk.png" alt="" /></span>
                 <li><a href="contact.php">CONTACTO</a></li>
             </ul>
         </div>

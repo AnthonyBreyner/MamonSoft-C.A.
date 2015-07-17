@@ -28,16 +28,6 @@
 </head>
 <body>
 <?php include_once("analyticstracking.php") ?>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-64453129-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 
 <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-W4RB5M"
@@ -62,6 +52,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <li><a href="services.php">SERVICIOS</a></li><span><img src="images/clk.png" alt="" /></span>
                 <li><a href="cursos.php">CURSOS</a></li><span><img src="images/clk.png" alt="" /></span>
                 <li><a href="carrers.php">SOFTWARE</a></li><span><img src="images/clk.png" alt="" /></span>
+                <li><a href="alianzas.php">ALIANZAS</a></li><span><img src="images/clk.png" alt="" /></span>
+                <li><a href="sugerencias.php">SUGERENCIAS</a></li><span><img src="images/clk.png" alt="" /></span>
                 <li><a href="contact.php">CONTACTO</a></li>
             </ul>
         </div>
