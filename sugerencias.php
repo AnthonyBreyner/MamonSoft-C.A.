@@ -36,11 +36,11 @@ include('cabecera.php');
 					    <br>
 						<center><h2>Formulario de Sugerencias:</h2></center>
 							<div class="tb-two">
-								<input type="text" id="nombres" name="nombres" placeholder="Nombre y Apellido"/>
+						<input type="text" id="nombres" name="nombres" placeholder="Nombre y Apellido"/>
 						<input type="text" id="cedula" name="cedula" placeholder="Cedula"  />
 						<input type="text" id="correo" name="correo" placeholder="Email"  />
 				        <input type="text" id="telefono" name="telefono" placeholder="Telefono" />
-						<textarea placeholder="Sugerencias..." class="textarea" id="observacion" style="height: 25%"></textarea>
+						<textarea placeholder="Sugerencias..." class="textarea" id="mensaje" style="height: 25%"></textarea>
 								
 									<div class="t-btn">
 										<form onsubmit="return guardar();" action="#">
@@ -54,6 +54,7 @@ include('cabecera.php');
 					</div>
 				</div>
 			</div>
+<script type="text/javascript" src="js/sugerencias.js"></script>
 <?php
 include('pie.php');
 ?>
