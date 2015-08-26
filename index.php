@@ -47,7 +47,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="navigation">
             <span class="menu"></span>
             <ul class="navig">
-                <li><a href="index.php" class="active">INICIO</a></li><span><img src="images/clk.png" alt="" /></span>
+                <li><a href="index.php">INICIO</a></li><span><img src="images/clk.png" alt="" /></span>
                 <li><a href="about-us.php">NOSOTROS</a></li><span><img src="images/clk.png" alt="" /></span>
                 <li><a href="services.php">SERVICIOS</a></li><span><img src="images/clk.png" alt="" /></span>
                 <li><a href="cursos.php">CURSOS</a></li><span><img src="images/clk.png" alt="" /></span>

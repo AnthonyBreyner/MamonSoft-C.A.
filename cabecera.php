@@ -57,7 +57,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="banner banner1" id="home">
     <div class="header">
         <div class="logo">
-            <a href="index.html"><img src="images/logo_1.png" class="logo" alt=""></a>
+            <a href="index.php"><img src="images/logo_1.png" class="logo" alt=""></a>
         </div>
         <div class="navigation">
             <span class="menu"></span>
